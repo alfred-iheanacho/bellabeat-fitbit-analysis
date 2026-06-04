@@ -27,6 +27,9 @@ The project incorporates six datasets:
 | Heart Rate | Heart rate measurements | User-Second |
 | Weight Log | Weight and BMI tracking events | Event-Based |
 
+Note: The cleaned heart-rate dataset was excluded from the repository due to GitHub file-size limitations. The analysis workflow and resulting insights remain fully reproducible using the provided notebook and processed analytical datasets.
+
+
 ---
 
 ## Tools & Technologies
