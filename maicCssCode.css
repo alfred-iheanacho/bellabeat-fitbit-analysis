@@ -1,0 +1,1310 @@
+/* =================================
+   MAIN PAGE ONLY (Scoped)
+   Applies ONLY to body#home
+================================= */
+
+body#home {
+    background: #f3f7e6;
+    color: #243b4a;
+    font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* ===============================
+   NAVBAR
+================================ */
+body#home .navbar {
+    background: #215b5b !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+body#home .navbar-brand,
+body#home .navbar-nav .nav-link {
+    color: #f3f7e6 !important;
+    font-weight: 500;
+}
+
+body#home .navbar-nav .nav-link:hover {
+    color: #ff8a33 !important;
+}
+
+/* ===============================
+   HERO / JUMBOTRON
+================================ */
+body#home .hero {
+    background: #f3f7e6;
+    border-radius: 26px;
+    margin-top: 90px;
+    padding: 80px 25px;
+    box-shadow: 0 28px 60px rgba(36, 59, 74, 0.15);
+}
+
+body#home .hero h1 {
+    color: #243b4a;
+    font-weight: 700;
+}
+
+body#home .hero .lead {
+    color: #215b5b;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* Highlight name */
+body#home .highlight {
+    color: #ff8a33;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+
+/* Base button shape for all buttons */
+body#home .btn {
+    border-radius: 18px;
+    padding: 12px 26px;
+    font-weight: 600;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+}
+
+/* NEW: Your unified button style */
+body#home .custom-btn {
+    background: #ff8a33;
+    border: 2px solid #ff8a33;
+    color: #243b4a;
+    border-radius: 999px;
+    /* pill button */
+    padding: 14px 34px;
+    /* slightly bigger for premium look */
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+}
+
+/* Hover: richer + lift */
+body#home .custom-btn:hover {
+    background: #e67628;
+    border-color: #e67628;
+    color: #243b4a;
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(255, 138, 51, 0.35);
+    text-decoration: none;
+}
+
+/* Optional: focus accessibility */
+body#home .custom-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(255, 138, 51, 0.35);
+}
+
+/* ===============================
+   SECTIONS
+================================ */
+body#home h2 {
+    font-weight: 700;
+    color: #243b4a;
+}
+
+body#home .intro {
+    color: #215b5b;
+}
+
+/* ===============================
+   PORTFOLIO CARDS
+================================ */
+body#home .project-row {
+    margin-top: 45px;
+    row-gap: 30px;
+}
+
+body#home .fancy-card {
+    background: #ffffff;
+    border-radius: 26px;
+    border: 1px solid rgba(36, 59, 74, 0.15);
+    box-shadow: 0 16px 40px rgba(36, 59, 74, 0.12);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+body#home .fancy-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 32px 70px rgba(36, 59, 74, 0.25);
+}
+
+body#home .fancy-card .card-title {
+    font-weight: 600;
+    color: #243b4a;
+}
+
+body#home .fancy-card .card-text {
+    color: #215b5b;
+}
+
+/* ===============================
+   CONTACT FORM
+================================ */
+body#home .form-div {
+    background: #ffffff;
+    border-radius: 26px;
+    border: 1px solid rgba(36, 59, 74, 0.15);
+    box-shadow: 0 28px 65px rgba(36, 59, 74, 0.18);
+    padding: 30px;
+}
+
+body#home .form-control {
+    border-radius: 14px;
+    border: 1px solid rgba(36, 59, 74, 0.25);
+}
+
+body#home .form-control:focus {
+    border-color: #ff8a33;
+    box-shadow: 0 0 0 0.2rem rgba(255, 138, 51, 0.25);
+}
+
+/* Validation (FIXED - your file was cut off) */
+body#home .was-validated .form-control:invalid,
+body#home .form-control.is-invalid {
+    border-color: #ef4444;
+    box-shadow: 0 0 0 0.2rem rgba(239, 68, 68, 0.18);
+}
+
+body#home .was-validated .form-control:valid,
+body#home .form-control.is-valid {
+    border-color: #22c55e;
+    box-shadow: 0 0 0 0.2rem rgba(34, 197, 94, 0.16);
+}
+
+/* ===============================
+   SOCIAL ICONS (if you are using them)
+================================ */
+body#home .socicons-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    padding-left: 0;
+    margin: 35px 0 10px;
+}
+
+body#home .socicons-list li a {
+    width: 54px;
+    height: 54px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+
+    background: #215b5b;
+    color: #f3f7e6;
+    font-size: 24px;
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+body#home .socicons-list li a:hover {
+    transform: translateY(-3px);
+    background: #ff8a33;
+    box-shadow: 0 14px 28px rgba(36, 59, 74, 0.18);
+}
+
+/* ===============================
+   COPYRIGHT
+================================ */
+body#home .copyright {
+    color: rgba(36, 59, 74, 0.75);
+    margin-top: 28px;
+    font-size: 0.95rem;
+}
+
+
+
+
+
+
+
+ANOTHER STYLING
+
+/* GENERAL */
+body {
+    background-color: #F8F9FA;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #0A192F !important;
+}
+
+.navbar-brand {
+    color: #F4D35E !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #00BFA6 !important;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #0A192F, #112240);
+    color: #ffffff;
+    padding: 100px 20px;
+}
+
+.highlight {
+    color: #F4D35E;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.custom-btn {
+    background-color: #00BFA6;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #009e8e;
+    color: #fff;
+}
+
+/* CARDS */
+.fancy-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.fancy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+    color: #0A192F;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* SECTION TITLES */
+h2 {
+    color: #0A192F;
+    font-weight: bold;
+}
+
+.intro {
+    color: #666;
+}
+
+/* CONTACT FORM */
+.form-div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-control:focus {
+    border-color: #00BFA6;
+    box-shadow: 0 0 5px rgba(0, 191, 166, 0.3);
+}
+
+/* FOOTER */
+#footer {
+    background-color: #0A192F;
+    padding: 20px 0;
+}
+
+.socicons-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.socicons-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socicons-list a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.socicons-list a:hover {
+    color: #00BFA6;
+}
+
+/* COPYRIGHT */
+.copyright {
+    color: #777;
+}
+
+/* RESTORE CARD SPACING (DO NOT CHANGE DESIGN) */
+
+.project-row {
+    margin-top: 40px;
+    row-gap: 30px;
+}
+
+.project-row>div {
+    margin-bottom: 20px;
+}
+
+
+
+ANOTHER STYLING
+/* GENERAL */
+body {
+    background-color: #F9FAFB;
+    color: #2F2F2F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #1D3557 !important;
+}
+
+.navbar-brand {
+    color: #E76F51 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #E76F51 !important;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #1D3557, #2A4A73);
+    color: #ffffff;
+    padding: 100px 20px;
+}
+
+.highlight {
+    color: #E76F51;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.custom-btn {
+    background-color: #E76F51;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #D65A3A;
+    color: #ffffff;
+}
+
+/* CARDS */
+.fancy-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(29, 53, 87, 0.08);
+}
+
+.fancy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(29, 53, 87, 0.12);
+}
+
+.card-title {
+    color: #1D3557;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6B7280;
+}
+
+/* SECTION TITLES */
+h2 {
+    color: #1D3557;
+    font-weight: bold;
+}
+
+.intro {
+    color: #6B7280;
+}
+
+/* CONTACT FORM */
+.form-div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(29, 53, 87, 0.08);
+}
+
+.form-control:focus {
+    border-color: #E76F51;
+    box-shadow: 0 0 5px rgba(231, 111, 81, 0.3);
+}
+
+/* FOOTER */
+#footer {
+    background-color: #1D3557;
+    padding: 20px 0;
+}
+
+.socicons-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.socicons-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socicons-list a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.socicons-list a:hover {
+    color: #E76F51;
+}
+
+/* COPYRIGHT */
+.copyright {
+    color: #6B7280;
+}
+
+/* RESTORE CARD SPACING (DO NOT CHANGE DESIGN) */
+
+.project-row {
+    margin-top: 40px;
+    row-gap: 30px;
+}
+
+.project-row>div {
+    margin-bottom: 20px;
+}
+
+
+/********************
+   ANOTHER STYLING
+********************/
+
+/* GENERAL */
+body {
+    background-color: #FAFAFA;
+    color: #1F1F1F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #2B2B2B !important;
+}
+
+.navbar-brand {
+    color: #D4AF37 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #D4AF37 !important;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #2B2B2B, #3A3A3A);
+    color: #ffffff;
+    padding: 100px 20px;
+}
+
+.highlight {
+    color: #D4AF37;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.custom-btn {
+    background-color: #D4AF37;
+    color: #2B2B2B;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #C19B2E;
+    color: #2B2B2B;
+}
+
+/* CARDS */
+.fancy-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.fancy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #2B2B2B;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6B6B6B;
+}
+
+/* SECTION TITLES */
+h2 {
+    color: #2B2B2B;
+    font-weight: bold;
+}
+
+.intro {
+    color: #6B6B6B;
+}
+
+/* CONTACT FORM */
+.form-div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.form-control:focus {
+    border-color: #D4AF37;
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.3);
+}
+
+/* FOOTER */
+#footer {
+    background-color: #2B2B2B;
+    padding: 20px 0;
+}
+
+.socicons-list a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.socicons-list a:hover {
+    color: #D4AF37;
+}
+
+/* COPYRIGHT */
+.copyright {
+    color: #6B6B6B;
+}
+
+/* RESTORE CARD SPACING (DO NOT CHANGE DESIGN) */
+
+.project-row {
+    margin-top: 40px;
+    row-gap: 30px;
+}
+
+.project-row>div {
+    margin-bottom: 20px;
+}
+
+
+ANOTHER STYLING
+
+/* GENERAL */
+body {
+    background-color: #F8FBFB;
+    color: #1F2F2F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #0F4C5C !important;
+}
+
+.navbar-brand {
+    color: #F4A261 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #3FA7A3 !important;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #0F4C5C, #1B6B7A);
+    color: #ffffff;
+    padding: 100px 20px;
+}
+
+.highlight {
+    color: #F4A261;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.custom-btn {
+    background-color: #3FA7A3;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #2E8F8B;
+    color: #ffffff;
+}
+
+/* CARDS */
+.fancy-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(15, 76, 92, 0.08);
+}
+
+.fancy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(15, 76, 92, 0.12);
+}
+
+.card-title {
+    color: #0F4C5C;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #5F7C7C;
+}
+
+/* SECTION TITLES */
+h2 {
+    color: #0F4C5C;
+    font-weight: bold;
+}
+
+.intro {
+    color: #5F7C7C;
+}
+
+/* CONTACT FORM */
+.form-div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(15, 76, 92, 0.08);
+}
+
+.form-control:focus {
+    border-color: #3FA7A3;
+    box-shadow: 0 0 5px rgba(63, 167, 163, 0.3);
+}
+
+/* FOOTER */
+#footer {
+    background-color: #0F4C5C;
+    padding: 20px 0;
+}
+
+.socicons-list a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.socicons-list a:hover {
+    color: #3FA7A3;
+}
+
+/* COPYRIGHT */
+.copyright {
+    color: #5F7C7C;
+}
+
+/* RESTORE CARD SPACING (DO NOT CHANGE DESIGN) */
+
+.project-row {
+    margin-top: 40px;
+    row-gap: 30px;
+}
+
+.project-row>div {
+    margin-bottom: 20px;
+}
+
+
+ANOTHER STYLING
+/* GENERAL */
+body {
+    background-color: #FAFAF9;
+    color: #1F2937;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #0F766E !important;
+}
+
+.navbar-brand {
+    color: #F59E0B !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #14B8A6 !important;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #0F766E, #115E59);
+    color: #ffffff;
+    padding: 100px 20px;
+}
+
+.highlight {
+    color: #F59E0B;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.custom-btn {
+    background-color: #14B8A6;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #0D9488;
+    color: #ffffff;
+}
+
+/* CARDS */
+.fancy-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(15, 118, 110, 0.08);
+}
+
+.fancy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(15, 118, 110, 0.12);
+}
+
+.card-title {
+    color: #0F766E;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6B7280;
+}
+
+/* SECTION TITLES */
+h2 {
+    color: #0F766E;
+    font-weight: bold;
+}
+
+.intro {
+    color: #6B7280;
+}
+
+/* CONTACT FORM */
+.form-div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(15, 118, 110, 0.08);
+}
+
+.form-control:focus {
+    border-color: #14B8A6;
+    box-shadow: 0 0 5px rgba(20, 184, 166, 0.3);
+}
+
+/* FOOTER */
+#footer {
+    background-color: #0F766E;
+    padding: 20px 0;
+}
+
+.socicons-list a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.socicons-list a:hover {
+    color: #14B8A6;
+}
+
+/* COPYRIGHT */
+.copyright {
+    color: #6B7280;
+}
+
+/* RESTORE CARD SPACING (DO NOT CHANGE DESIGN) */
+
+.project-row {
+    margin-top: 40px;
+    row-gap: 30px;
+}
+
+.project-row>div {
+    margin-bottom: 20px;
+}
+
+
+
+ANOTHER STYLING
+/* GENERAL */
+body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #1E293B !important;
+}
+
+.navbar-brand {
+    color: #3B82F6 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #3B82F6 !important;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #1E293B, #334155);
+    color: #ffffff;
+    padding: 100px 20px;
+}
+
+.highlight {
+    color: #22C55E;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.custom-btn {
+    background-color: #3B82F6;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #2563EB;
+    color: #ffffff;
+}
+
+/* CARDS */
+.fancy-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+.fancy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+}
+
+.card-title {
+    color: #1E293B;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #64748B;
+}
+
+/* SECTION TITLES */
+h2 {
+    color: #1E293B;
+    font-weight: bold;
+}
+
+.intro {
+    color: #64748B;
+}
+
+/* CONTACT FORM */
+.form-div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+.form-control:focus {
+    border-color: #3B82F6;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.3);
+}
+
+/* FOOTER */
+#footer {
+    background-color: #1E293B;
+    padding: 20px 0;
+}
+
+.socicons-list a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.socicons-list a:hover {
+    color: #3B82F6;
+}
+
+/* COPYRIGHT */
+.copyright {
+    color: #64748B;
+}
+
+/* RESTORE CARD SPACING (DO NOT CHANGE DESIGN) */
+
+.project-row {
+    margin-top: 40px;
+    row-gap: 30px;
+}
+
+.project-row>div {
+    margin-bottom: 20px;
+}
+
+
+
+ANOTHER STYLING
+
+/* GENERAL */
+body {
+    background-color: #F5F7FA;
+    color: #2D3436;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #2C3E50 !important;
+}
+
+.navbar-brand {
+    color: #4A90E2 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #4A90E2 !important;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #2C3E50, #3B4F63);
+    color: #ffffff;
+    padding: 100px 20px;
+}
+
+.highlight {
+    color: #4A90E2;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.custom-btn {
+    background-color: #4A90E2;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #3A78C2;
+    color: #ffffff;
+}
+
+/* CARDS */
+.fancy-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(44, 62, 80, 0.08);
+}
+
+.fancy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(44, 62, 80, 0.12);
+}
+
+.card-title {
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #7B8A8B;
+}
+
+/* SECTION TITLES */
+h2 {
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+.intro {
+    color: #7B8A8B;
+}
+
+/* CONTACT FORM */
+.form-div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(44, 62, 80, 0.08);
+}
+
+.form-control:focus {
+    border-color: #4A90E2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+
+/* FOOTER */
+#footer {
+    background-color: #2C3E50;
+    padding: 20px 0;
+}
+
+.socicons-list a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.socicons-list a:hover {
+    color: #4A90E2;
+}
+
+/* COPYRIGHT */
+.copyright {
+    color: #7B8A8B;
+}
+
+/* RESTORE CARD SPACING (DO NOT CHANGE DESIGN) */
+
+.project-row {
+    margin-top: 40px;
+    row-gap: 30px;
+}
+
+.project-row>div {
+    margin-bottom: 20px;
+}
+
+
+ANOTHER STYLING
+
+/* GENERAL */
+body {
+    background-color: #F8F9FA;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #0A192F !important;
+}
+
+.navbar-brand {
+    color: #F4D35E !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #00BFA6 !important;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #0A192F, #112240);
+    color: #ffffff;
+    padding: 100px 20px;
+}
+
+.highlight {
+    color: #F4D35E;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.custom-btn {
+    background-color: #00BFA6;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #009e8e;
+    color: #fff;
+}
+
+/* CARDS */
+.fancy-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.fancy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+    color: #0A192F;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* SECTION TITLES */
+h2 {
+    color: #0A192F;
+    font-weight: bold;
+}
+
+.intro {
+    color: #666;
+}
+
+/* CONTACT FORM */
+.form-div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-control:focus {
+    border-color: #00BFA6;
+    box-shadow: 0 0 5px rgba(0, 191, 166, 0.3);
+}
+
+/* FOOTER */
+#footer {
+    background-color: #0A192F;
+    padding: 20px 0;
+}
+
+.socicons-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.socicons-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socicons-list a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.socicons-list a:hover {
+    color: #00BFA6;
+}
+
+/* COPYRIGHT */
+.copyright {
+    color: #777;
+}

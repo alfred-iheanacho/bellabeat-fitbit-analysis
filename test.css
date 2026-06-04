@@ -1,0 +1,129 @@
+/* GENERAL */
+body {
+    background-color: #F8F9FA;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #0A192F !important;
+}
+
+.navbar-brand {
+    color: #F4D35E !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #00BFA6 !important;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #0A192F, #112240);
+    color: #ffffff;
+    padding: 100px 20px;
+}
+
+.highlight {
+    color: #F4D35E;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.custom-btn {
+    background-color: #00BFA6;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: #009e8e;
+    color: #fff;
+}
+
+/* CARDS */
+.fancy-card {
+    border: none;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.fancy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card-title {
+    color: #0A192F;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* SECTION TITLES */
+h2 {
+    color: #0A192F;
+    font-weight: bold;
+}
+
+.intro {
+    color: #666;
+}
+
+/* CONTACT FORM */
+.form-div {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-control:focus {
+    border-color: #00BFA6;
+    box-shadow: 0 0 5px rgba(0, 191, 166, 0.3);
+}
+
+/* FOOTER */
+#footer {
+    background-color: #0A192F;
+    padding: 20px 0;
+}
+
+.socicons-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.socicons-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socicons-list a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.socicons-list a:hover {
+    color: #00BFA6;
+}
+
+/* COPYRIGHT */
+.copyright {
+    color: #777;
+}
