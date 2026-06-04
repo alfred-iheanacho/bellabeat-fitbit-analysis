@@ -1,114 +1,105 @@
 body {
 
-    background: #f3f7e6;
+background: #f3f7e6;
 
-    color: #243b4a;
+color: #243b4a;
 
-    font-family: "Segoe UI", sans-serif;
+font-family: "Segoe UI", sans-serif;
 
-    margin: 0;
+margin: 0;
 
-    padding: 0;
+padding: 0;
 
-    line-height: 1.6;
+line-height: 1.6;
 
 }
-
 
 .hero {
 
-    text-align: center;
+text-align: center;
 
-    padding: 80px 20px;
+padding: 80px 20px;
 
-    background: #f3f7e6;
+background: #f3f7e6;
 
 }
-
 
 .hero h1 {
 
-    font-size: 3rem;
+font-size: 3rem;
 
-    margin-bottom: 15px;
+margin-bottom: 15px;
 
 }
-
 
 .hero p {
 
-    max-width: 700px;
+max-width: 700px;
 
-    margin: auto;
+margin: auto;
 
 }
-
 
 .custom-btn {
 
-    display: inline-block;
+display: inline-block;
 
-    margin-top: 25px;
+margin-top: 25px;
 
-    background: #ff8a33;
+background: #ff8a33;
 
-    color: #243b4a;
+color: #243b4a;
 
-    padding: 14px 28px;
+padding: 14px 28px;
 
-    border-radius: 999px;
+border-radius: 999px;
 
-    text-decoration: none;
+text-decoration: none;
 
-    font-weight: bold;
+font-weight: bold;
 
 }
-
 
 .custom-btn:hover {
 
-    background: #e67628;
+background: #e67628;
 
 }
-
 
 section {
 
-    max-width: 1000px;
+max-width: 1000px;
 
-    margin: auto;
+margin: auto;
 
-    padding: 50px 20px;
+padding: 50px 20px;
 
 }
-
 
 h2 {
 
-    color: #243b4a;
+color: #243b4a;
 
 }
-
 
 img {
 
-    width: 100%;
+width: 100%;
 
-    max-width: 900px;
+max-width: 900px;
 
-    display: block;
+display: block;
 
-    margin-bottom: 25px;
+margin-bottom: 25px;
 
-    border-radius: 12px;
+border-radius: 12px;
 
-    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+box-shadow: 0 8px 25px rgba(0,0,0,0.12);
 
 }
 
-
 ul li {
 
-    margin-bottom: 10px;
+margin-bottom: 10px;
 
 }
